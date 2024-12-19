@@ -36,9 +36,9 @@ func TestStargazeConformance(t *testing.T) {
 	// Fund Fairburn Pool
 
 	// TESTING MODULE : Cron
-	// Promote to priviledged contract - from governance
+	// Promote to privileged contract - from governance
 	// Update params to add admin address
-	// Demote from priviledged contract - from admin
+	// Demote from privileged contract - from admin
 
 	// TESTING MODULE : Globalfee
 	// Set code authorization - from governance
