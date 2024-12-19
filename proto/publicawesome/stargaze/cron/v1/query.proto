@@ -9,7 +9,7 @@ option go_package = "github.com/public-awesome/stargaze/v15/x/cron/types";
 
 // Query defines the gRPC querier service.
 service Query {
-  // ListPrivileged queries the contracts which have the priviledge status
+  // ListPrivileged queries the contracts which have the privileged status
   rpc ListPrivileged(QueryListPrivilegedRequest) returns (QueryListPrivilegedResponse) {
     option (google.api.http).get = "/stargaze/cron/v1/list-privileged";
   }
